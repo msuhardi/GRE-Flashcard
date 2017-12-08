@@ -1,0 +1,61 @@
+{
+  "name": "AwesomeProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "lodash": "^4.17.4",
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.44.0",
+    "react-native-action-button": "^2.6.9",
+    "react-native-audio-streaming": "^2.3.2",
+    "react-native-autocomplete-input": "^3.3.1",
+    "react-native-clean-form": "^0.4.2",
+    "react-native-flip-card-view": "0.0.4",
+    "react-native-fs": "^2.3.2",
+    "react-native-image-progress": "^0.6.0",
+    "react-native-loader": "^1.1.0",
+    "react-native-modal": "^2.4.0",
+    "react-native-modalbox": "^1.4.2",
+    "react-native-progress": "^3.2.1",
+    "react-native-progress-bar": "^0.1.2",
+    "react-native-router-flux": "^4.0.0-beta.11",
+    "react-native-side-menu": "^1.0.2",
+    "react-native-simple-sound": "^1.0.0",
+    "react-native-sound": "^0.10.1",
+    "react-native-sound-player": "^0.2.1",
+    "react-native-swipeout": "^2.2.2",
+    "react-native-swiper-animated": "^1.2.3",
+    "react-native-tab-view": "0.0.67",
+    "react-native-vector-icons": "^4.1.1",
+    "react-navigation": "^1.0.0-beta.9",
+    "react-redux": "^5.0.5",
+    "realm": "^1.3.1",
+    "redux": "^3.7.1",
+    "redux-form": "^6.8.0",
+    "redux-immutablejs": "0.0.8",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "shuffle-array": "^1.0.1",
+    "styled-components": "^2.1.1"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.1",
+    "babel-preset-env": "^1.5.0",
+    "babel-preset-react-native": "^1.9.2",
+    "jest": "20.0.1",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./app/assets/fonts"
+    ]
+  }
+}
