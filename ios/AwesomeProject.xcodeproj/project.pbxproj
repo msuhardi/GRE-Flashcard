@@ -666,6 +666,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		7FF0C1411FDC72E8004C7306 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				8EC2411F93DD44C1A905C2B5 /* libRNVectorIcons.a */,
+				25220E7DFD5A431BAE614D5D /* libRNSound.a */,
+				E3B3C7770E5D4DB1A3EE81A3 /* libRNFS.a */,
+				307A054994A243989F2AC411 /* libRNSimpleSound.a */,
+				AE2786A52C5046EFACA82C22 /* libRNSoundPlayer.a */,
+				2FF755993E274E2AA8228EDB /* libReactNativeAudioStreaming.a */,
+				9856011B381748B0A196DC5A /* libRealmReact.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -714,6 +728,7 @@
 				3F315ECF1F2F1B18006807B9 /* Launch Screen.storyboard */,
 				D98568BE4AF54A219D0D6DFA /* Resources */,
 				587EC566B9D64612BB8A6934 /* Frameworks */,
+				7FF0C1411FDC72E8004C7306 /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
